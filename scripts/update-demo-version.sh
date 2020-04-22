@@ -7,5 +7,7 @@
 
 version=$1
 
+echo "update demo-version to $version"
+
 ./build.sh -s "version.cake" -t="UpdateDemoVersion" -DemoVersion="$version"
 
